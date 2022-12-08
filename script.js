@@ -63,7 +63,8 @@ All-Star Dev | Code Fanatic | Linux Hacker | Bleh
 
 const title = [ 
     "All-Star Dev", 
-    "JVM, GCC, Py, ...", 
+    "JVM, GCC, Py, ...",
+    "BeCoder", 
     "Manga enjoyer"
 ];
 
