@@ -47,6 +47,7 @@ main > .intro {
 	font-family: 'Reem Kufi', sans-serif;
 	font-size: 3.75em;
 	font-weight: 600;
+	user-select: none;
 }
 
 main > .tagline {
@@ -72,4 +73,16 @@ main > .tagline {
 	margin-left: 0.675rem;;
 	width: 2.65rem;
 	height: 2.65rem;
+}
+
+.themeBnt{
+	margin-bottom: 10%;
+	display: flex;
+	justify-content: space-between;
+	
+}
+
+.material-symbols-rounded:hover{
+	cursor: pointer;
+	color: black;
 }
