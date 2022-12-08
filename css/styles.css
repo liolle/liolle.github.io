@@ -44,7 +44,7 @@ main {
 }
 
 main > .intro {
-	font-family: 'Reem Kufi', sans-serif;
+	font-family: cursive,'Reem Kufi', sans-serif;
 	font-size: 3.75em;
 	font-weight: 600;
 	user-select: none;
@@ -75,14 +75,54 @@ main > .tagline {
 	height: 2.65rem;
 }
 
+.container{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
 .themeBnt{
 	margin-bottom: 10%;
 	display: flex;
 	justify-content: space-between;
-	
+	width: 30%;
 }
 
 .material-symbols-rounded:hover{
 	cursor: pointer;
 	color: black;
+}
+
+.icons-social i:hover{
+	color: black;
+}
+
+.tagline {
+	text-align: center;
+}
+
+.typed {
+	display: inline-block;
+	vertical-align: middle;
+
+	letter-spacing: 2px;
+}
+
+.cursor {
+	
+	display: inline-block;
+	vertical-align: middle;
+	width: 3px;
+	height: 100%;
+	background-color: black;
+	animation: blink .75s step-end infinite;
+}
+
+@keyframes blink {
+	from, to { 
+		background-color: transparent 
+	}
+	50% { 
+		background-color: black; 
+	}
 }
