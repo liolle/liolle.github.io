@@ -88,6 +88,10 @@ main > .tagline {
 	width: 30%;
 }
 
+.material-symbols-rounded{
+	user-select: none;
+}
+
 .material-symbols-rounded:hover{
 	cursor: pointer;
 	color: black;
