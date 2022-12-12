@@ -1,0 +1,191 @@
+
+body{
+    font-family: "Open Sans","Audiowide", sans-serif;
+    background-color: #EBEBEB;
+    color: #7d7d7d;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.description,
+.socials,
+.movies{
+    margin: 10px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+
+}
+
+
+.description{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 40%;
+}
+
+
+/*Picture*/
+
+
+.tim_name::before {
+    display: block;
+    width: 200px;
+    height: 200px;
+    background-image: url(./images/tim_berners_lee.jpg); 
+    border-radius: 50%;
+    border: 10px #cccccc solid;
+    margin: auto;
+    
+    content: "";
+    
+}
+
+/*Name & Resume */
+
+.tim_name{
+    color: #DD5555;
+    text-align: center;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.invention{
+    margin-top: 0;
+    font-weight: bold;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+/*See more*/
+.see_more{
+    background-color: #DD5555;
+    border: 0px;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    color: white;
+}
+.see_more:hover{
+    background-color: #8a1010;
+    cursor: pointer;
+    
+}
+
+/*Socials*/
+
+.fa{
+    margin: 15px;
+    font-size: 10px;
+    color: #cccccc;
+}
+
+.fa::before{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.fa:hover{
+    color: black;
+    cursor: pointer;
+}
+
+
+
+/*
+wikipedia: https://fr.wikipedia.org/wiki/Tim_Berners-Lee
+Faceboock: 
+Twitter: https://twitter.com/timberners_lee
+LinkedIn: 
+*/
+.socials{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 40%;
+}
+
+/*Movies*/
+
+.movies h2{
+    text-align: center;
+
+}
+
+.m_card {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    margin: 25px;
+
+    
+}
+
+.m_card .img_container {
+    
+    margin-right: 25px;
+
+}
+
+.m_card .img_container img {
+    height: 150px;
+    width: 85px;
+
+}
+
+.title{
+    text-align: center;
+    margin-top: 5px;
+    font-weight: bold;
+}
+
+.des{
+    line-height: 2rem;
+}
+
+.movies{
+    width: 40%;
+}
+
+/*Responsive*/
+
+@media (max-width:850px) {
+    .m_card{
+        flex-direction: column;
+    }
+}
+
+@media (max-width:600px) {
+    .socials{
+        flex-direction: column;
+    }
+
+    .fa{
+        text-align: center;
+    }
+
+    .tim_name::before{
+        width: 100px;
+        height: 100px;
+        left: 100px;
+
+        background-size: 100px;
+    }
+
+    .tim_name{
+        font-size: 22px;
+        
+    }
+
+    .des{
+        line-height: 1rem;
+    }
+    
+}

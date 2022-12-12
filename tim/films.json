@@ -1,0 +1,17 @@
+[
+    {
+        "photo":"./images/space_odyssey.jpg",
+        "title":"2001 - Space Odyssey",
+        "description":"Humanity finds a musterious, obviously arificial object buried beneath the Lunar surface and, with the intelligent computer H.A.L. 9000, sets off on a quest."
+    },
+    {
+        "photo":"./images/mister_hulot.jpg",
+        "title":"Monsieur Hulot",
+        "description":"Monsieur Hulot comes to a beachside hotel for a vacation, where he accidentally  (but good-naturedly) causes havoc"
+    },
+    {
+        "photo":"./images/alien.jpg",
+        "title":"Alien",
+        "description":"The commercial vessel Nostromo receives a distress call from an unexplored planet. After seaching for survivors, the crew heads home only to realize that a deadly bioform has joined them."
+    }
+]
