@@ -77,20 +77,26 @@ main > .tagline {
 
 .container{
 	display: flex;
-	justify-content: center;
 	align-items: center;
-}
-
-.themeBnt{
-	margin-bottom: 10%;
-	display: flex;
-	justify-content: space-between;
-	width: 30%;
+	justify-content: center;
 }
 
 .material-symbols-rounded{
 	user-select: none;
+	transform: scale(3);
+	display: inline-block;
 }
+.themeBnt{
+	margin-bottom: 10%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	gap: 50px;
+	font-family: Henny Penny,sans-serif;
+	font-size: 50px;
+	max-height: 100%;
+}
+
 
 .material-symbols-rounded:hover{
 	cursor: pointer;
@@ -128,5 +134,29 @@ main > .tagline {
 	}
 	50% { 
 		background-color: black; 
+	}
+}
+
+@media (max-width:400px) {
+	.themeBnt{
+		margin-bottom: 10%;
+		gap: 25px;
+		font-size: 25px;
+
+	}
+
+	.material-symbols-rounded{
+		user-select: none;
+		transform: scale(2);
+		display: inline-block;
+	}
+
+	main > .intro{
+		font-size: 2rem;
+		margin: 1rem 0;
+	}
+
+	.themeBnt p{
+		letter-spacing: .3rem;
 	}
 }
