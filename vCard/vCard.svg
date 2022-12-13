@@ -1,0 +1,26 @@
+<svg width="233" height="238" viewBox="100
+ 0 233 238" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_4_2)">
+<g style="mix-blend-mode:overlay">
+<path d="M180 195.5L203 238H155L180 195.5Z" fill="#EE1A30"/>
+</g>
+<g style="mix-blend-mode:overlay">
+<path d="M200.888 158.586C201.069 158.898 201.068 159.283 200.886 159.594L155.143 237.773C154.964 238.08 154.636 238.268 154.28 238.268L0.180889 238.268C-0.371397 238.268 -0.819111 237.821 -0.819108 237.268L-0.819119 1.02445C-0.819111 0.471289 -0.370031 0.0232084 0.183126 0.0244494L108.28 0.267002C108.635 0.267799 108.964 0.457169 109.142 0.764426L200.888 158.586Z" fill="#29333B"/>
+</g>
+<g style="mix-blend-mode:overlay">
+<path d="M178.5 0L209.295 55.5L197.5 78L153 0H178.5Z" fill="#F3F3F3"/>
+</g>
+<g style="mix-blend-mode:overlay">
+<path d="M232.244 142.246L210.744 181.246L190.744 215.246L179.744 195.246L200.744 158.746L175.244 114.746L197.244 78.2461L232.244 142.246Z" fill="#F3F3F3"/>
+</g>
+<g style="mix-blend-mode:overlay">
+<path d="M197.343 78.2461L175.244 114.746L150.216 71.1344L108.744 0.246079L153.244 0.246082L197.343 78.2461Z" fill="#EE1A30"/>
+</g>
+</g>
+<rect x="0.5" y="0.5" width="232" height="237" rx="1.5" stroke="white" stroke-opacity="0.1"/>
+<defs>
+<clipPath id="clip0_4_2">
+<rect width="233" height="238" rx="2" fill="white"/>
+</clipPath>
+</defs>
+</svg>

@@ -1,0 +1,188 @@
+
+body{
+    background-color: gray;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    height: 1000px;
+}
+
+.top, .bottom{
+    
+    width: 450px;
+    height: 250px;
+    background-color: azure;
+    border-radius: 15px;
+    /* overflow: hidden; */
+}
+
+#title{
+    font-size: 20px;
+    font-weight: bold;
+    font-family:cursive;
+}
+
+.top{
+    
+    overflow: hidden;
+    background-color: white;
+    
+}
+
+
+
+#shape1,#shape5{
+    
+    fill:#EE1A30
+}
+
+#shape2{
+
+    fill:#29333B;
+
+}
+
+#shape3,#shape4{
+
+    fill:#cecfd1;
+}
+
+.verso{
+    height: 100%;
+    width: 100%;
+    transform: rotate(180deg);
+}
+
+.info{
+    overflow: hidden;
+    position: absolute;
+    width: 450px;
+    height: 250px;
+    border-radius: 5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    z-index: 2;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+.left{
+    margin: 0 0 0 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.left span{
+    color: #EE1A30;
+}
+
+#name{
+    font-weight: 600;
+    margin-bottom: 0px;
+}
+
+#job{
+    font-size: 12px;
+    margin-top: 0px;
+    
+}
+
+.contact{
+    list-style:url();
+    padding: 0;
+    align-content: flex-end;
+    margin: 5% 0;
+}
+
+.contact li{
+    display: flex;
+    list-style: none;
+    margin: 5% 0 0 0;
+    font-size: 12px;
+    align-items: center;
+}
+
+.contact i{
+    margin-right: 2%;
+    color: #EE1A30;
+    font-weight: bold;
+    
+}
+
+.right{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    height: 100%;
+    margin: 2% 2% 0 0;
+}
+
+.right h2{
+
+    font-size: 18px;
+    position: relative;
+    top: 13%;
+}
+
+.right p{
+    margin: 0 0 0 0;
+}
+
+.QR_code{
+    height: 30%;
+    width: 60%;
+    position: relative;
+    top: 5%;
+}
+
+.logo{
+    margin: 5% 0 0 0;
+    width: 40%;
+    height: 40%;
+
+
+}
+
+
+.bottom{
+    overflow: hidden;
+    background-image: url("https://images.unsplash.com/photo-1580866515815-445f523d5643?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTd8fGNlbnRyZSUyMHZpbGxlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60");
+    background-size:cover;
+}
+
+
+@media (max-width:650px) {
+    .top, .bottom{
+        width: 270px;
+        height: 150px;
+
+    }
+
+    .info{
+        width: 270px;
+        height: 150px;
+    }
+
+    .right h2{
+
+        font-size: 10px;
+    }
+
+    .contact li{
+        font-size: 8px;
+    }
+
+    .contact i{
+        font-size: 16px;
+    }
+
+    #job{
+        font-size: 8px;
+
+        
+    }
+}
