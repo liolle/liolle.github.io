@@ -167,16 +167,16 @@ const btn_tim = document.querySelector("#btn_tim")
 const btn_vc = document.querySelector("#btn_vc")
 
 btn_er.addEventListener('click',()=>{
-    open("http://liolle.github.io/error404","__self")
+    open("http://liolle.github.io/error404","_self")
 })
 btn_nav.addEventListener('click',()=>{
-    open("http://liolle.github.io/navBar","__self")
+    open("http://liolle.github.io/navbar","_self")
 })
 btn_tim.addEventListener('click',()=>{
-    open("http://liolle.github.io/tim","__self")
+    open("http://liolle.github.io/tim","_self")
 })
 btn_vc.addEventListener('click',()=>{
-    open("http://liolle.github.io/vCard","__self")
+    open("http://liolle.github.io/vCard","_self")
 })
 
 
