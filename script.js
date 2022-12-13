@@ -150,3 +150,33 @@ function Delete() {
 
 // Start the typing effect on load
 _INTERVAL_VAL = setInterval(Type, 100);
+
+/*
+    <div class="redirect">
+        <p id="btn_er">Error-404</p>
+        <p id="btn_nav">NavBar</p>
+        <p id="btn_tim">Tim</p>
+        <p id="btn_vc">V-Card</p>
+    </div>
+
+*/
+
+const btn_er = document.querySelector("#btn_er")
+const btn_nav = document.querySelector("#btn_nav")
+const btn_tim = document.querySelector("#btn_tim")
+const btn_vc = document.querySelector("#btn_vc")
+
+btn_er.addEventListener('click',()=>{
+    open("http://liolle.github.io/error404","__self")
+})
+btn_nav.addEventListener('click',()=>{
+    open("http://liolle.github.io/navBar","__self")
+})
+btn_tim.addEventListener('click',()=>{
+    open("http://liolle.github.io/tim","__self")
+})
+btn_vc.addEventListener('click',()=>{
+    open("http://liolle.github.io/vCard","__self")
+})
+
+
