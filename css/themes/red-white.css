@@ -12,3 +12,7 @@ main {
 .icons-social a svg path{
 	fill: #FAFAFA;
 }
+
+.redirect{
+	color: #af3d4e;
+}
