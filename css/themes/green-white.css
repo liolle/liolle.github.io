@@ -1,6 +1,6 @@
 /* Theme */
 
-main {
+main  {
 	background: #43A047;
 	color: #FAFAFA;
 }
@@ -11,4 +11,8 @@ main {
 
 .icons-social a svg path{
 	fill: #FAFAFA;
+}
+
+.redirect{
+	color: #43A047;
 }
