@@ -155,6 +155,7 @@ const btn_er = document.querySelector("#btn_er")
 const btn_nav = document.querySelector("#btn_nav")
 const btn_tim = document.querySelector("#btn_tim")
 const btn_vc = document.querySelector("#btn_vc")
+const btn_chal2 = document.querySelector("#btn_chal2")
 
 btn_er.addEventListener('click',()=>{
     open("http://liolle.github.io/error404","_self")
@@ -167,4 +168,7 @@ btn_tim.addEventListener('click',()=>{
 })
 btn_vc.addEventListener('click',()=>{
     open("http://liolle.github.io/vCard","_self")
+})
+btn_chal2.addEventListener('click',()=>{
+    open("http://liolle.github.io/challenge2","_self")
 })
