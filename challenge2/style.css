@@ -39,13 +39,10 @@ nav{
 
 .authentification{
     display: flex;
-    
     align-items: center;
-    width: 20%;
     gap: 10%;
-    font-size: 12px;
     flex: 2;
-    
+    justify-content: flex-end;
     font-size: 10px;
 }
 
@@ -61,9 +58,10 @@ nav{
     align-self: center;
     justify-content: center;
     align-items: center;
-    flex: 2;
-    height: 50%;
     
+    height: 50%;
+    max-width: 100px;
+    flex: 2;
     border-radius: 5px;
     background-color: #A71600;
     border: 0px;
@@ -76,7 +74,7 @@ nav{
     color: white;
     display: flex;
     align-items: center;
-    flex: 1;
+    
 
     border-radius: 5px;
     background-color: #03182E;
@@ -181,7 +179,7 @@ main{
 }
 
 section{
-    margin: 0 0 0 3%;
+    margin: 0 0 3% 3%;
     border: 1px solid gray;
     padding: 2%;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -380,6 +378,7 @@ section{
         display: flex;
         flex: 0;
         gap: 10px;
+        margin-left: 1%;
     }
 
     .browse.hiden i:hover,
