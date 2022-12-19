@@ -1,0 +1,15 @@
+
+
+.md_view {
+    display: none;
+}
+
+@media (min-width:768px){
+    .md_view {
+        display: inline-block;
+    }
+
+    .sm_view {
+        display: none;
+    }
+}

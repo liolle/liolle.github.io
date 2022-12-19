@@ -1,0 +1,12 @@
+
+.col{
+    border: 1px solid gray;
+    border-radius: 4px;
+    
+}
+
+#ct_1,#ct_2 .col,#ct_3,#ct_4 .row{
+    background-color: #CDA5F3;
+}
+
+
