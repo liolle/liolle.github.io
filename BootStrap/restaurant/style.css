@@ -1,0 +1,122 @@
+
+body{
+    
+    
+}
+
+#top_part{
+    background-image:linear-gradient(0deg, rgba(0,0,0,0.9) 0%, rgba(0,0,0,0.005) 50%, rgba(0,0,0,0.9) 100%),
+     url("./img/home_bg.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+    
+}
+
+#top_part nav{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    font-weight: bold;
+    user-select: none;
+}
+
+.active_link{
+    border-bottom: 2px solid #B89260;
+    color: #B89260;
+}
+
+#links .col:not(#menu):hover,
+#menu span:hover{
+    color: #B89260;
+    cursor: pointer;
+}
+
+#links {
+    margin: 0;
+}
+
+#res_btn{
+    background-color: #B89260;
+    width: -moz-fit-content;
+    width: fit-content;
+}
+
+#res_btn:hover{
+    background-color: #520909;
+    cursor: pointer;
+}
+
+.arrow{
+    user-select: none;
+}
+
+.arrow:hover{
+    color: #B89260;
+    cursor: pointer;
+}
+
+.col-centered{
+    float: none;
+    margin: auto;
+    margin-bottom: 19%;
+    margin-top: 5%;
+    border: 2px solid white;
+    border-radius: 5px;
+    width: -moz-fit-content;
+    width: fit-content;
+    user-select: none;
+}
+
+.col-centered:hover{
+    cursor: pointer;
+    border: #B89260 solid 2px;
+    color: #B89260;
+}
+
+#slogan .p_1{
+    margin: 10% 0 0 0;
+    
+}
+
+/*  */
+
+.md_view {
+    display: none;
+}
+
+.p_1{
+    font-size: 15px;
+}
+.p_2{
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+.material-symbols-outlined{
+    font-size: inherit !important;
+}
+
+@media (min-width:576px){
+    .md_view {
+        display: inline-block;
+    }
+
+    .sm_view {
+        display: none;
+    }
+    
+}
+
+@media (min-width:1024px){
+    
+    .p_1,.p_3{
+        font-size: 32px;
+    }
+    .p_2{
+        font-size: 64px;
+    }
+
+    .col-centered{
+        font-size: 32px;
+    }
+    
+}
