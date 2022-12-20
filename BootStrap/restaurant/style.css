@@ -9,6 +9,7 @@ body{
      url("./img/home_bg.jpg");
     background-size:cover;
     background-repeat: no-repeat;
+    height: 100%;
     
 }
 
@@ -104,6 +105,40 @@ body{
         display: none;
     }
     
+}
+
+@media (max-width:576px){
+
+    .p_1,.p_3{
+        font-size: 10px;
+    }
+    .p_2{
+        font-size: 20px;
+    }
+
+    .col-centered{
+        font-size: 10px;
+    }
+
+    #slogan{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .l_3{
+        display: flex;
+    }
+
+    .l_3 div:nth-child(1){
+        flex: 1;
+    }
+
+    .l_3 div:nth-child(2){
+        flex: 5;
+    }
+    .l_3 div:nth-child(3){
+        flex: 1;
+    }
 }
 
 @media (min-width:1024px){
