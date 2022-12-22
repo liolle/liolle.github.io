@@ -1,0 +1,43 @@
+
+
+
+#menu_bord {
+    user-select: none;
+    font-family:cursive;
+    background-color: white;
+    opacity: .9;
+    padding: 10px;
+    margin: auto;
+    border-radius: 2px;
+    
+}
+
+.sm_view{
+    display: none;
+    
+}
+
+.active_menu{
+    color: #B89260;
+}
+
+.d_ingredients,
+.d_name{
+    
+}
+
+
+@media (max-width:768px) {
+    
+    
+
+    .sm_view{
+        display: block;
+    }
+    
+    .n_view{
+        display: none !important;
+    }
+
+
+}

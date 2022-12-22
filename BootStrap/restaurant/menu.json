@@ -1,0 +1,161 @@
+[
+    {
+        "type":"lunch",
+        "dishes":[
+            {
+                "name": "Grilled Cheese Sandwich",
+                "ingredients":"Bread, butter, cheese",
+                "price":"5"
+
+            },
+            {
+                "name": "Caesar Salad with Chicken",
+                "ingredients":"Romaine lettuce, chicken, croutons, Caesar dressing, parmesan cheese",
+                "price":"12"
+
+            },
+            {
+                "name": "Black Bean Burger",
+                "ingredients":"Black beans, bread crumbs, egg, onion, bell pepper, spices",
+                "price":"13"
+
+            },
+            {
+                "name": "Tuna Salad Wrap",
+                "ingredients":"Tuna, mayonnaise, lettuce, tomato, wrap",
+                "price":"11"
+
+            },
+            {
+                "name": "Chicken Caesar Wrap",
+                "ingredients":"Chicken, romaine lettuce, Caesar dressing, parmesan cheese, wrap",
+                "price":"12"
+
+            },
+            {
+                "name": "Southwest Salad with Steak",
+                "ingredients":"Mixed greens, steak, black beans, corn, tomato, avocado, ranch dressing",
+                "price":"14"
+
+            },
+            {
+                "name": "Turkey and Avocado Club",
+                "ingredients":"Turkey, bacon, lettuce, tomato, avocado, mayonnaise, bread",
+                "price":"13"
+
+            },
+            {
+                "name": "Grilled Vegetable and Hummus Wrap",
+                "ingredients":"Grilled vegetables, hummus, lettuce, wrap",
+                "price":"12"
+
+            }
+        ]
+    },
+    {
+        "type":"dinner",
+        "dishes":[
+            {
+                "name": "Beef Stroganoff",
+                "ingredients":"Beef, mushrooms, onion, flour, beef broth, sour cream, egg noodles",
+                "price":"18"
+
+            },
+            {
+                "name": "Grilled Salmon with Rice",
+                "ingredients":"Salmon, rice, olive oil, lemon juice, salt, pepper",
+                "price":"20"
+
+            },
+            {
+                "name": "Spaghetti Bolognese",
+                "ingredients":"Spaghetti, ground beef, tomato sauce, onion, garlic, red wine, salt, pepper",
+                "price":"16"
+
+            },
+            {
+                "name": "Chicken Marsala",
+                "ingredients":"Chicken, flour, butter, marsala wine, chicken broth, mushrooms, salt, pepper",
+                "price":"18"
+
+            },
+            {
+                "name": "Pork Chop with Roasted Vegetables",
+                "ingredients":"Pork chop, vegetables (such as carrots, potatoes, and onions), olive oil, salt, pepper",
+                "price":"19"
+
+            },
+            {
+                "name": "Beef and Broccoli Stir Fry",
+                "ingredients":"Beef, broccoli, soy sauce, garlic, cornstarch, vegetable oil, rice",
+                "price":"17"
+
+            },
+            {
+                "name": "Vegetable Lasagna",
+                "ingredients":"Lasagna noodles, ricotta cheese, spinach, zucchini, tomato sauce, mozzarella cheese",
+                "price":"16"
+
+            },
+            {
+                "name": "Shrimp Scampi",
+                "ingredients":"Shrimp, butter, garlic, white wine, lemon juice, parsley, pasta",
+                "price":"20"
+
+            }
+        ]
+    },
+    {
+        "type":"dessert",
+        "dishes":[
+            {
+                "name": "Shrimp Scampi",
+                "ingredients":"Shrimp, butter, garlic, white wine, lemon juice, parsley, pasta",
+                "price":"7"
+
+            },
+            {
+                "name": "Cheesecake",
+                "ingredients":"Graham cracker crust, cream cheese, sugar, eggs, vanilla extract",
+                "price":"8"
+
+            },
+            {
+                "name": "Carrot Cake",
+                "ingredients":"Flour, sugar, eggs, carrots, pineapple, coconut, raisins, cinnamon, nutmeg, vanilla extract, cream cheese frosting",
+                "price":"6"
+
+            },
+            {
+                "name": "Apple Pie",
+                "ingredients":"Pie crust, apples, sugar, cinnamon, butter",
+                "price":"7"
+
+            },
+            {
+                "name": "Strawberry Shortcake",
+                "ingredients":"Shortcake, strawberries, whipped cream",
+                "price":"8"
+
+            },
+            {
+                "name": "Chocolate Mousse",
+                "ingredients":"Chocolate, heavy cream, sugar, eggs",
+                "price":"7"
+
+            },
+            {
+                "name": "Vanilla Bean Crème Brulee",
+                "ingredients":"Heavy cream, sugar, egg yolks, vanilla bean, sugar",
+                "price":"8"
+
+            },
+            {
+                "name": "Key Lime Pie",
+                "ingredients":"Graham cracker crust, sweetened condensed milk, key lime juice, egg yolks, whipped cream",
+                "price":"7"
+
+            }
+        ]
+    }
+]
