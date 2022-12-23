@@ -30,11 +30,11 @@ function dishMaker(d){
     let recette = document.createElement("div")
     recette.innerHTML = 
     `<div class='row '>
-        <div class='col col-sm-8 text-start'>
-            <p class='d_name m-0'>${d["name"]}</p>
+        <div class='col col-sm-10 text-start'>
+            <p class='d_name m-0 fs-6'>${d["name"]}</p>
             <p class='d_ingredients'>${d["ingredients"]}</p>
         </div>
-        <div class='col col-sm-4 text-end'>
+        <div class='col col-sm-2 text-end'>
             ${d["price"]} &#8364
         </div>
     </div>
