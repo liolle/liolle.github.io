@@ -6,9 +6,9 @@ let cur_link = document.querySelector(".active_link")
 const links = document.querySelectorAll("#links .col")
 
 function pathResolve(currentPage, nextPage){
-    if (currentPage == "/restaurant/gallery/index.html" ||
-    currentPage == "/restaurant/menu/index.html" ||
-    currentPage == "/restaurant/about/index.html"){
+    if (currentPage.includes("/restaurant/gallery/index.html")   ||
+    currentPage.includes("/restaurant/menu/index.html") ||
+    currentPage.includes("/restaurant/about/index.html")){
 
         window.open(`../${nextPage}/index.html`, '_self');
     }else{
