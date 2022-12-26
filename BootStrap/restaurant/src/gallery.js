@@ -15,7 +15,7 @@ function setUpImgs(page){
     console.log(cards);
     for (let i = 0; i < cards.length; i++) {
         let elem = document.createElement("img")
-        elem.setAttribute("src",`/restaurant/img/${picture_type[page]}_${i+1}.jpg`)
+        elem.setAttribute("src",`../img/${picture_type[page]}_${i+1}.jpg`)
         elem.classList.add("img-thumbnail")
         console.log(elem);
         cards[i].parentElement.replaceChild(elem,cards[i])
