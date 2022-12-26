@@ -10,6 +10,11 @@ function pathResolve(currentPage, nextPage){
     currentPage.includes("/restaurant/menu/index.html") ||
     currentPage.includes("/restaurant/about/index.html")){
 
+        if (nextPage == "home"){
+            window.open(`../index.html`, '_self');
+            return;
+        }
+
         window.open(`../${nextPage}/index.html`, '_self');
     }else{
         window.open(`./${nextPage}/index.html`, '_self');
@@ -24,12 +29,10 @@ links.forEach((elem)=>{
             elem.classList.add("active_link")
             cur_link = elem
             
-            //TODO swith page 
-            
             switch (elem.textContent) {
                 case "Home":
-                    window.open("../index.html", '_self');
-                    
+                    pathResolve(document.location.pathname, "home")
+
                     break;
                 case "Menu":
                     pathResolve(document.location.pathname, "menu")
@@ -44,8 +47,8 @@ links.forEach((elem)=>{
                     break;
             
                 default:
+                    throw new Error("Navbar links error")
                     
-                    break;
             }
         }
 
