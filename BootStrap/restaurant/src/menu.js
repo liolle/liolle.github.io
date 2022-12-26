@@ -1,14 +1,5 @@
 const menus = document.querySelector(".dropdown .btn")
 
-const menu_type_options = document.querySelectorAll(".dropdown-item")
-
-menu_type_options.forEach((elem)=>{
-    elem.addEventListener('click',()=>{
-        menus.textContent = elem.textContent
-    })
-
-})
-
 let db_menu = undefined
 
 fetch("../menu.json").then((response)=>{

@@ -5,9 +5,13 @@
     
 }
 
- #map { 
+#map { 
     height: 20rem;
-    min-width: 400px;
+    min-width: 300px;
+}
+
+#schedule{
+    min-width: 200px;
 }
 
 .btn:hover{

@@ -21,39 +21,56 @@ function pathResolve(currentPage, nextPage){
     }
 }
 
+function changePage(input){
+
+    if (cur_link.textContent == input) return
+
+    switch (input) {
+        case "Home":
+            pathResolve(document.location.pathname, "home")
+
+            break;
+        case "Menu":
+            pathResolve(document.location.pathname, "menu")
+            
+            break;
+        case "Gallery":
+            pathResolve(document.location.pathname, "gallery")
+            break;
+        
+        case "About":
+            pathResolve(document.location.pathname, "about")
+            break;
+    
+        default:
+            throw new Error("Navbar links error")
+            
+    }
+}
+
 links.forEach((elem)=>{
     elem.addEventListener('click',()=>{
-        console.log(document.location.pathname);
+        
         if (cur_link != elem && elem.getAttribute("id") != "burger"){
-            cur_link.classList.remove("active_link")  
-            elem.classList.add("active_link")
-            cur_link = elem
             
-            switch (elem.textContent) {
-                case "Home":
-                    pathResolve(document.location.pathname, "home")
 
-                    break;
-                case "Menu":
-                    pathResolve(document.location.pathname, "menu")
-                    
-                    break;
-                case "Gallery":
-                    pathResolve(document.location.pathname, "gallery")
-                    break;
-                
-                case "About":
-                    pathResolve(document.location.pathname, "about")
-                    break;
+            changePage(elem.textContent)
             
-                default:
-                    throw new Error("Navbar links error")
-                    
-            }
+            
         }
 
         if (elem.getAttribute("id") == "burger"){
             //TODO open drop-down menu
         }
     })
+})
+
+drop_down_items = document.querySelectorAll(".dropdown-item")
+
+drop_down_items.forEach((elem)=>{
+
+    elem.addEventListener('click',()=>{
+        changePage(elem.textContent)
+    })
+
 })
