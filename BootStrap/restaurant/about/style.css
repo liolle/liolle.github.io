@@ -12,6 +12,11 @@
 
 #schedule{
     min-width: 200px;
+    max-width: 300px;
+}
+
+.hidden{
+    visibility: hidden;
 }
 
 .btn:hover{

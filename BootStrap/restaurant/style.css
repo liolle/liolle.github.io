@@ -1,4 +1,5 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
 body{
     background-color: #0F0C0D;
     
@@ -16,7 +17,9 @@ body{
 }
 
 #top_part nav{
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+    font-family: 'Sacramento', cursive;
+    font-size: 1.5rem !important;
     user-select: none;
 }
 

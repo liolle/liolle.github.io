@@ -17,7 +17,7 @@ let cur_menu = document.querySelector(".active_menu")
 const m_links = document.querySelectorAll("#menu_tab .col")
 
 function dishMaker(d){
-
+    //&#8364
     let recette = document.createElement("div")
     recette.innerHTML = 
     `<div class='row '>
@@ -26,7 +26,7 @@ function dishMaker(d){
             <p class='d_ingredients'>${d["ingredients"]}</p>
         </div>
         <div class='col col-sm-2 text-end'>
-            ${d["price"]} &#8364
+            ${d["price"]} £
         </div>
     </div>
     `

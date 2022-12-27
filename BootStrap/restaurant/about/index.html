@@ -71,16 +71,43 @@
             align-items-center justify-content-center 
             flex-column rounded " id="schedule">
 
-              <div class="week ">
-                <p class="fw-bold">Monday-Friday</p>
-                <p class="">12:00 PM-3:00 PM</p>
-                <p>5:00 PM-10:00 PM</p>
+            <div class="row address">
+              <div class="col col-sm-12 ">
+                <p class="d-flex flex-nowrap" style="user-select: none; cursor: pointer; width: fit-content;" 
+                id="map_loc" onclick="copyLocation()">
+                  <span class="material-symbols-outlined mx-1">location_on</span>
+                  London EC1A 9EJ 
+                  <span class="material-symbols-outlined mx-1 hidden">inventory</span>
+                  
+                </p>
+
+                
               </div>
-              <div class="week-end">
-                <p class="fw-bold mb-0">Saturday-Sunday</p>
-                <p class="mt-0 text-black-50">(On reservation)</p>
-                <p class="">1:00 PM-10:00 PM</p>
+              <div class="col col-sm-12 ">
+                <p class="d-flex flex-nowrap" style="user-select: none; cursor: pointer; width: fit-content;" 
+                id="map_tel" onclick="cp('tel')">
+                  <span class="material-symbols-outlined mx-2">phone</span>
+                  20 7946 0626 
+                  <span class="material-symbols-outlined mx-1 hidden">inventory</span>
+                  
+                </p>
+
+                
               </div>
+
+            </div>
+            <div class="week ">
+              <p class="fw-bold m-0">Monday-Friday</p>
+              <p class="m-0">12:00 PM-3:00 PM</p>
+              <p>5:00 PM-10:00 PM</p>
+            </div>
+            <div class="week-end">
+              <p class="fw-bold m-0">Saturday-Sunday</p>
+              <p class="mt-0 text-black-50 m-0">(On reservation)</p>
+              <p class="">1:00 PM-10:00 PM</p>
+            </div>
+            </div>
+
               
             </div>
           </div>
@@ -88,59 +115,66 @@
 
         <div class="container mt-5 text-white text-start" id="form">
 
-          <form>
-            <div class="row mb-3">
-              <div class="col">
-                <label for="firstname" class="form-label">Firstname</label>
-                <input type="firstname" class="form-control" id="firstname" >
-                
-              </div>
-              <div class="col">
-                <label for="lastname" class="form-label">Lastname</label>
-                <input type="lastname" class="form-control" id="lastname" >
-              </div>
+          <div class="row d-flex justify-content-center">
+            <div class="col col-sm-8 ">
 
+              <form>
+                <div class="row mb-1">
+                  <div class="col">
+                    <label for="firstname" class="form-label"></label>
+                    <input type="firstname" class="form-control" id="firstname" 
+                    placeholder="Firstname">
+                    
+                  </div>
+                  <div class="col">
+                    <label for="lastname" class="form-label"></label>
+                    <input type="lastname" class="form-control" id="lastname" 
+                    placeholder="Lastname">
+                  </div>
+    
+                </div>
+    
+                <div class="row mb-3">
+                  <div class="col form-group col-sm-9 py-0">
+                    <label for="exampleFormControlInput1"></label>
+                    <input type="email" class="form-control" 
+                    id="exampleFormControlInput1" placeholder="name@example.com">
+                  </div>
+                </div>
+    
+                <div class="input-group mb-3">
+                  <label class="input-group-text" for="inputGroupSelect01">Topic</label>
+                  <select class="form-select" id="inputGroupSelect01">
+                    <option selected>Choose...</option>
+                    <option value="1">General</option>
+                    <option value="2">Reservation</option>
+                    <option value="3">Business</option>
+                    <option value="4">Other</option>
+                  </select>
+                </div>
+    
+                <div class="row mb-3">
+                  <div class="col">
+                    <label for="message">Message</label>
+                    <textarea class="form-control" id="message" rows="5"></textarea>
+                    
+                  </div>
+                </div>
+    
+    
+                <div class="row  ">
+                  <div class="col mb-3 d-flex justify-content-center">
+                    <button type="submit" class="btn border text-white px-2  d-flex justify-content-center">
+                      Send
+                      <span class="material-symbols-outlined mx-1"> send </span>
+                    </button>
+                  </div>
+                </div>
+    
+              </form>
             </div>
+          </div>
 
-            <div class="row mb-3">
-              <div class="col form-group col-sm-9">
-                <label for="exampleFormControlInput1">Email address</label>
-                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-              </div>
-            </div>
-
-            <div class="row mb-3">
-              <div class="col rounded">
-                <label for="inlineFormCustomSelect" class="form-label">Topic</label>
-                <select class="custom-select mr-sm-2" id="inlineFormCustomSelect">
-                  <option selected>Subject</option>
-                  <option value="1">General</option>
-                  <option value="2">Reservation</option>
-                  <option value="3">Buisiness</option>
-                  <option value="3">Other</option>
-                </select>
-              </div>
-            </div>
-
-            <div class="row mb-3">
-              <div class="col">
-                <label for="message">Message</label>
-                <textarea class="form-control" id="message" rows="5"></textarea>
-                
-              </div>
-            </div>
-
-
-            <div class="row  ">
-              <div class="col mb-3 d-flex justify-content-center">
-                <button type="submit" class="btn border text-white px-2  d-flex justify-content-center">
-                  Send
-                  <span class="material-symbols-outlined mx-1"> send </span>
-                </button>
-              </div>
-            </div>
-
-          </form>
 
         </div>
 

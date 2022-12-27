@@ -1,0 +1,14 @@
+#box_gall img{
+    max-height: 200px;
+    max-width: 2700px;
+    min-width: 150px;
+}
+
+img{
+    transition: all .5s ease-in-out; 
+}
+
+img:hover {
+    transform: scale(1.5);
+}
+

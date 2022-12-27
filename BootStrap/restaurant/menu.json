@@ -108,12 +108,7 @@
     {
         "type":"dessert",
         "dishes":[
-            {
-                "name": "Shrimp Scampi",
-                "ingredients":"Shrimp, butter, garlic, white wine, lemon juice, parsley, pasta",
-                "price":"7"
-
-            },
+            
             {
                 "name": "Cheesecake",
                 "ingredients":"Graham cracker crust, cream cheese, sugar, eggs, vanilla extract",
