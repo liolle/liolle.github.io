@@ -1,0 +1,53 @@
+
+body{
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+    background-image: url("https://c0.wallpaperflare.com/preview/267/964/934/stars-sky-night.jpg");
+    overflow: hidden;
+
+  }
+  
+  section p{
+    
+    color: yellow;
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 2rem;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    
+  }
+  
+  .container{
+    position: relative;
+    margin:  0 10%;
+    height: 100%;
+    animation: scroll 30s linear infinite, 
+    fade 30s ease-out infinite;
+  }
+  
+  section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    perspective: 125px;
+}
+
+
+@keyframes scroll {
+  
+  from{
+    transform:rotateX(15deg) translateY(100%) ;
+    
+  }
+  to{
+    transform:rotateX(30deg) translateY(-100%) ;
+    
+  }
+}
+
+@keyframes fade {
+  
+  90% { opacity: 1; }
+  100% { opacity: 0; }
+}
