@@ -6,9 +6,7 @@ body{
 }
 
 #top_part{
-    background-image:url("./img/home_bg2.jpg");
-    background-size:cover;
-    background-repeat: no-repeat;
+    
     
     /* check if time */
     min-height: 100%;
